@@ -9,11 +9,31 @@ section {
     margin-top: 2em;
     display: grid;
     gap: 1.5em;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 #cuadro {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    border: solid;
+    text-align: center;
+    margin: auto;
+}
+
+#listaNotas {
+    list-style: none;
+    padding-right: 2.5em;
+}
+
+#listaNotas li {
+    list-style: none;
+}
+
+#cuadro a {
+    text-decoration: none;
+    color: black;
+}
+
+#cuadro a:hover {
+    background-color: #dbdbdb;
 }
